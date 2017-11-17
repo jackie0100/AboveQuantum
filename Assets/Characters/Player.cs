@@ -18,8 +18,8 @@ public class Player : MonoBehaviour
     {
 		if (Input.GetKeyDown(KeyCode.F))
         {
-            playercamera.cullingMask ^= 1 << 10;
             playercamera.cullingMask ^= 1 << 9;
+            playercamera.cullingMask ^= 1 << 8;
         }
     }
 }
