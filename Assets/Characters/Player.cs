@@ -2,15 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
+    [SerializeField]
+    Camera playercamera;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	void Update ()
+    {
+		if (Input.GetKeyDown(KeyCode.F))
+        {
+            playercamera.cullingMask ^= 1 << 10;
+            playercamera.cullingMask ^= 1 << 9;
+        }
+    }
 }
