@@ -37,7 +37,7 @@ public class OverviewCameraControl : MonoBehaviour
         
         overViewCamera.RenderToCubemap(rt);
         playerCamera.GetComponent<Skybox>().material.SetTextureOffset("_Tex", new Vector2(0.5f, 0.5f));
-        overViewCamera.transform.position = new Vector3(playerCamera.transform.position.x, height, playerCamera.transform.position.z);
+        overViewCamera.transform.position = new Vector3(playerCamera.transform.position.x, height - playerCamera.transform.position.y, playerCamera.transform.position.z);
         overViewCamera.transform.eulerAngles = new Vector3(-playerCamera.transform.eulerAngles.x, 0,0);
     }
 
