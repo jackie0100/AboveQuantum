@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4620874027088830}
   - component: {fileID: 33706265880060926}
   - component: {fileID: 23439382827904126}
-  - component: {fileID: 95476112300005014}
-  m_Layer: 0
+  - component: {fileID: 64062326095038254}
+  m_Layer: 9
   m_Name: EndLevelDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4743663930405392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DoorAxis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,8 @@ GameObject:
   - component: {fileID: 4353257285876994}
   - component: {fileID: 33373175889014154}
   - component: {fileID: 23825891363339564}
-  m_Layer: 0
+  - component: {fileID: 64715177364510150}
+  m_Layer: 9
   m_Name: Doorway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +70,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4690382641795300}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LevelEndDoorEvil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +110,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1799850513769088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.521491, y: 0.5, z: -0.21566534}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4353257285876994}
@@ -213,20 +214,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1256977845028480}
   m_Mesh: {fileID: 4300000, guid: 8a282820a745db445a13c72157af4958, type: 3}
---- !u!95 &95476112300005014
-Animator:
-  serializedVersion: 3
+--- !u!64 &64062326095038254
+MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1256977845028480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 8a282820a745db445a13c72157af4958, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 8a282820a745db445a13c72157af4958, type: 3}
+--- !u!64 &64715177364510150
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623444716839798}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300006, guid: 9a8d01d87125ed34c8ffc6952593c7b5, type: 3}

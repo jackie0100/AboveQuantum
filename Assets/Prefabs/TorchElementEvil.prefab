@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33939219575572120}
   - component: {fileID: 23677150189652712}
   - component: {fileID: 95554246517909222}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torch2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4193520051457876}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TorchElementEvil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 33402002212371534}
   - component: {fileID: 23100124287008462}
   - component: {fileID: 95173406831035358}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TorchHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

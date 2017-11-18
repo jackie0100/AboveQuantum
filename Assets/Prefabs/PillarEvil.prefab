@@ -21,7 +21,8 @@ GameObject:
   - component: {fileID: 4881959996181648}
   - component: {fileID: 33344091373618556}
   - component: {fileID: 23230546943418984}
-  m_Layer: 0
+  - component: {fileID: 64462252559879154}
+  m_Layer: 9
   m_Name: Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +37,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4328257150208810}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PillarEvil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +51,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1878165395766876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.999, y: 0.5, z: 2.9890642}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4881959996181648}
@@ -110,4 +111,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1872765208486666}
+  m_Mesh: {fileID: 4300000, guid: 5c28e7793f91ba44b88b29e902d4e107, type: 3}
+--- !u!64 &64462252559879154
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872765208486666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5c28e7793f91ba44b88b29e902d4e107, type: 3}
