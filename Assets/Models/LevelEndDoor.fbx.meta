@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: b2979ce836e8d0049be991c714ffd1ae
-timeCreated: 1511018679
+guid: 8a282820a745db445a13c72157af4958
+timeCreated: 1511014134
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -10,8 +10,14 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCube1
+    6400000: //RootNode
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ab94b4922a441ce4294d63fe3e6f4df4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -48,7 +54,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -69,7 +75,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
