@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 33551694823767154}
   - component: {fileID: 23946921122630984}
   - component: {fileID: 64273597451927050}
+  - component: {fileID: 114644112690317732}
   m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
@@ -132,15 +133,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1308157290000364}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3772216, y: 0.5, z: 2.9538589}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4006375709651986}
   - {fileID: 4876454530488964}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4237301636633470
 Transform:
   m_ObjectHideFlags: 1
@@ -416,3 +417,20 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 77006718d08445a47acacb8291a544de, type: 3}
+--- !u!114 &114644112690317732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993962602087038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ffa67ce1c32594e92176f1512ed667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedObject: []
+  linkID: 0
+  keyLinkID: 0
+  rotationSpeed: 25
+  rotationLimit: 90
+  rotationObject: {fileID: 4876454530488964}
