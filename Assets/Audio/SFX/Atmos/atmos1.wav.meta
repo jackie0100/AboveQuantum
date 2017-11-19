@@ -1,16 +1,14 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
-guid: f41c2ea72fa9b5a448b5c9ee607c2464
-timeCreated: 1511059902
+guid: 4edb03ca72c6db544ba0406abd2f2c80
+timeCreated: 1511061641
+=======
+guid: 423f637e52fff40d4a3754ad522265a9
+timeCreated: 1511060101
+>>>>>>> d006a328fd6089b2fdb7aae5fc2bf108c7e94e2f
 licenseType: Free
 AudioImporter:
   externalObjects: {}
-=======
-guid: 574e8d66322252146ab4fef8db7e9158
-timeCreated: 1511060008
-licenseType: Free
-AudioImporter:
->>>>>>> a9ee1dc89c292a8c5b2969df42ac8943945bfef5
   serializedVersion: 6
   defaultSettings:
     loadType: 0
