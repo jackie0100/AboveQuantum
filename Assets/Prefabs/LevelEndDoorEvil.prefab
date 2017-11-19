@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33706265880060926}
   - component: {fileID: 23439382827904126}
   - component: {fileID: 64062326095038254}
-  - component: {fileID: 114023630317885762}
-  m_Layer: 9
+  - component: {fileID: 114194979277679542}
+  m_Layer: 8
   m_Name: EndLevelDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4743663930405392}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: DoorAxis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33373175889014154}
   - component: {fileID: 23825891363339564}
   - component: {fileID: 64715177364510150}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Doorway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4690382641795300}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: LevelEndDoorEvil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,8 +110,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1799850513769088}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.521491, y: 0.5, z: 3.43}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.55, y: 0.5, z: -4.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4353257285876994}
@@ -147,7 +147,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c0129796da20b2e4e8250cbb6d5221db, type: 2}
+  - {fileID: 2100000, guid: e7b43234aa923f2448d4387ff959ec4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -181,7 +181,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 16da17b5bbde98441913b178b0445629, type: 2}
+  - {fileID: 2100000, guid: fe1e505e59fd90e4db52677884ec2883, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -243,7 +243,7 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 9a8d01d87125ed34c8ffc6952593c7b5, type: 3}
---- !u!114 &114023630317885762
+--- !u!114 &114194979277679542
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -251,11 +251,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1256977845028480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aef278471d1d9148976e4f0b8eb5ba7, type: 3}
+  m_Script: {fileID: 11500000, guid: 878009248c81c53459dec2484a0894a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linkedObject: []
-  linkID: 0
-  rotationSpeed: 10
-  rotationLimit: 90
-  rotationObject: {fileID: 4743663930405392}
+  nextLevelName: 
