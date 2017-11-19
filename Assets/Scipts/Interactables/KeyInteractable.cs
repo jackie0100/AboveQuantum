@@ -21,7 +21,7 @@ public class KeyInteractable : Interactable
     {
         base.Interact();
 
-        Destroy(this.gameObject);
+        
     }
 
 }

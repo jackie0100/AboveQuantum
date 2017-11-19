@@ -49,20 +49,20 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(SwapAsync());
         }
-        //if (Input.GetKeyDown(KeyCode.E))
-        //{
-        //    //TODO: Raycast check interactability.
-        //    RaycastHit hit;
-        //    if (Physics.Raycast(this.transform.position, Vector3.forward, out hit, 5))
-        //    {
-        //        Debug.Log(hit.transform.name);
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            //TODO: Raycast check interactability.
+            RaycastHit hit;
+            if (Physics.Raycast(this.transform.position, Vector3.forward, out hit, 5))
+            {
+                Debug.Log(hit.transform.name);
 
-        //        if (hit.transform.GetComponent<Interactable>() != null)
-        //        {
-        //            hit.transform.GetComponent<Interactable>().Interact();
-        //        }
-        //    }
-        //}
+                if (hit.transform.GetComponent<Interactable>() != null)
+                {
+                    hit.transform.GetComponent<Interactable>().Interact();
+                }
+            }
+        }
     }
 
     IEnumerator SwapAsync()
