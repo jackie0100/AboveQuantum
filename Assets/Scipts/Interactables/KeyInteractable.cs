@@ -2,26 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyInteractable : Interactable
+public class KeyInteractable : MonoBehaviour
 {
-    [SerializeField]
-    public int linkID;
-
-    protected override void Start()
-    {
-        base.Start();
-    }
-
-    protected override void Update()
-    {
-        base.Update();
-    }
-
-    public override void Interact()
-    {
-        base.Interact();
-
-        Destroy(this.gameObject);
-    }
-
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
 }
