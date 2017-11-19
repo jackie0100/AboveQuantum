@@ -17,7 +17,7 @@ public class MenuScript : MonoBehaviour {
 
     public void Newthing()
     {
-        SceneManager.LoadScene("Za Warudo1");
+        SceneManager.LoadScene("Level1Good");
 
     }
 }

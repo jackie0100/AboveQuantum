@@ -21,14 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2/Level 2-Bad.unity
     guid: b68af172f29179a44b16b758bf622b6c
   - enabled: 1
-    path: Assets/Scenes/Level0/Za Warudo2.unity
-    guid: 8b8ef37280170854fbb323bfd2b49f77
-  - enabled: 1
-    path: Assets/Scenes/Level3/World 2.unity
+    path: Assets/Scenes/Level 3/World 2.unity
     guid: d9e60466d85d5234fa82a6054efe8f8e
   - enabled: 1
-    path: Assets/Scenes/Level3/World 1.unity
+    path: Assets/Scenes/Level 3/World 1.unity
     guid: 08ad1ae2914cfdc4caa1124989f68739
-  - enabled: 1
-    path: Assets/Scenes/Level0/Za Warudo1.unity
-    guid: 91b4d415e6ee5b44a9464cf6884fac85
