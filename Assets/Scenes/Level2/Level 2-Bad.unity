@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -457,7 +457,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1472756933469798, guid: 99227756c14dbb34fa6167eb7f132cfd, type: 2}
       propertyPath: m_Layer
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99227756c14dbb34fa6167eb7f132cfd, type: 2}
@@ -851,6 +851,10 @@ Prefab:
         type: 2}
       propertyPath: nextLevelName
       value: World 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799850513769088, guid: 07cce2ef3ed83cf40a63ac16ac1e0870, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07cce2ef3ed83cf40a63ac16ac1e0870, type: 2}
@@ -1289,6 +1293,52 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e075383cee9c914193ad2d9ccf88f54, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1886165086
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.921
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.528819
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.812
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193520051457876, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750269889149970, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
+      propertyPath: m_Name
+      value: TorchElementEvil (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6a96b7591f781ce46be73d68d07c8df7, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &2100129340
 GameObject:
