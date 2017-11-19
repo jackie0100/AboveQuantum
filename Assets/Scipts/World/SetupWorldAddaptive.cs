@@ -12,7 +12,10 @@ public class SetupWorldAddaptive : MonoBehaviour
     //Scene otherWorldScene;
     void Awake()
     {
-        SceneManager.LoadScene(otherWorldSceneName, LoadSceneMode.Additive);
+        if (SceneManager.sceneCount < 2)
+        {
+            SceneManager.LoadScene(otherWorldSceneName, LoadSceneMode.Additive);
+        }
     }
 
     // Use this for initialization
