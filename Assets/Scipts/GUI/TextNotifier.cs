@@ -9,6 +9,7 @@ public class TextNotifier : MonoBehaviour
 
     void Start()
     {
+        instance = this;
         this.GetComponent<Text>().enabled = false;
     }
 
