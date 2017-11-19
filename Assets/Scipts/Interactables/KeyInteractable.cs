@@ -20,7 +20,7 @@ public class KeyInteractable : Interactable
     public override void Interact()
     {
         base.Interact();
-
+        TextNotifier.instance.SetTextMessage("You Got a key!");
         Destroy(this.gameObject);
     }
 
