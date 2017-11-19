@@ -32,7 +32,7 @@ public class InteractController : MonoBehaviour
                 }
                 if (hit[i].transform.GetComponent<KeyDoorInteractable>() != null)
                 {
-                    if (collectedkeys.Any(k => k.linkID == hit[i].transform.GetComponent<KeyDoorInteractable>().keyLinkID))
+                    if (collectedkeys.Any(k => k != null && k.linkID == hit[i].transform.GetComponent<KeyDoorInteractable>().keyLinkID))
                     {
                         collectedkeys.Add(hit[i].transform.GetComponent<KeyInteractable>());
                         hit[i].transform.GetComponent<Interactable>().Interact();

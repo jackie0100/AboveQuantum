@@ -21,7 +21,7 @@ public class KeyInteractable : Interactable
     {
         base.Interact();
         TextNotifier.instance.SetTextMessage("You Got a key!");
-        Destroy(this.gameObject);
+        this.gameObject.SetActive(false);
     }
 
 }
