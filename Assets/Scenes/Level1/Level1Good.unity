@@ -561,32 +561,6 @@ Prefab:
       propertyPath: overviewCamera
       value: 
       objectReference: {fileID: 714521086}
-    - target: {fileID: 1758545905348980, guid: 1156422e49612c649871b7d2918e76dd, type: 2}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1170095137973622, guid: 1156422e49612c649871b7d2918e76dd, type: 2}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1148016278639472, guid: 1156422e49612c649871b7d2918e76dd, type: 2}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1419752452581560, guid: 1156422e49612c649871b7d2918e76dd, type: 2}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114544660850285002, guid: 1156422e49612c649871b7d2918e76dd,
-        type: 2}
-      propertyPath: otherWorldSceneName
-      value: Level1Bad
-      objectReference: {fileID: 0}
-    - target: {fileID: 114117097053752880, guid: 1156422e49612c649871b7d2918e76dd,
-        type: 2}
-      propertyPath: m_JumpSpeed
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1156422e49612c649871b7d2918e76dd, type: 2}
   m_IsPrefabParent: 0
