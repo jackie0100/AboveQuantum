@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyInteractable : MonoBehaviour {
-
+public class KeyInteractable : MonoBehaviour
+{
 	// Use this for initialization
 	void Start () {
 		
