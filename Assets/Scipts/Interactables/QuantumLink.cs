@@ -13,14 +13,14 @@ public class QuantumLink : Interactable
     // Use this for initialization
     protected override void Start ()
     {
-        if (linkedObject == null || linkedObject.Count == 0)
-        {
-            Debug.LogError(this.name + " Have no link.");
-        }
-		if (linkedObject.Contains(this))
-        {
-            Debug.LogWarning(this.name + " is not linked correctly check IDs and trye again.");
-        }
+  //      if (linkedObject == null || linkedObject.Count == 0)
+  //      {
+  //          Debug.LogError(this.name + " Have no link.");
+  //      }
+		//if (linkedObject.Contains(this))
+  //      {
+  //          Debug.LogWarning(this.name + " is not linked correctly check IDs and trye again.");
+  //      }
 	}
 
     // Update is called once per frame
