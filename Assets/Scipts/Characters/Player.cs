@@ -48,7 +48,20 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             StartCoroutine(SwapAsync());
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            //TODO: Raycast check interactability.
+            RaycastHit hit;
+            if (Physics.Raycast(this.transform.position, Vector3.forward, out hit, 5))
+            {
+                Debug.Log(hit.transform.name);
 
+                if (hit.transform.GetComponent<Interactable>() != null)
+                {
+                    hit.transform.GetComponent<Interactable>().Interact();
+                }
+            }
         }
     }
 

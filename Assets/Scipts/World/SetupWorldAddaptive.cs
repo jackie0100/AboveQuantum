@@ -2,26 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Linq;
 
 public class SetupWorldAddaptive : MonoBehaviour
 {
-    Scene otherWorldScene;
+    [SerializeField]
+    string otherWorldSceneName;
 
+    //Scene otherWorldScene;
     void Awake()
     {
-        SceneManager.LoadScene(otherWorldScene.buildIndex, LoadSceneMode.Additive);
-        
-        while (!otherWorldScene.isLoaded)
-        {
-        }
-
-        QuantumLink[] linkedobjects = FindObjectsOfType<QuantumLink>();
+        SceneManager.LoadScene(otherWorldSceneName, LoadSceneMode.Additive);
     }
 
     // Use this for initialization
     void Start ()
     {
-		
+        StartCoroutine(SetupQuantumLinks());
 	}
 	
 	// Update is called once per frame
@@ -29,4 +26,20 @@ public class SetupWorldAddaptive : MonoBehaviour
     {
 		
 	}
+
+    IEnumerator SetupQuantumLinks()
+    {
+        yield return new WaitForEndOfFrame();
+
+        QuantumLink[] linkedobjects = FindObjectsOfType<QuantumLink>();
+
+        for (int i = 0; i < linkedobjects.Length; i++)
+        {
+            linkedobjects[i].linkedObject = new List<QuantumLink>();
+            QuantumLink[] locallinks = linkedobjects.Where(o => o.linkID == linkedobjects[i].linkID && linkedobjects[i].linkedObject != o.linkedObject).ToArray();
+            linkedobjects[i].linkedObject.AddRange(locallinks);
+        }
+
+        yield return null;
+    }
 }

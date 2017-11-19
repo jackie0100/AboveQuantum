@@ -8,6 +8,8 @@ public class DoorLinkInteract : QuantumLink
     float rotationSpeed;
     [SerializeField]
     float rotationLimit;
+    [SerializeField]
+    Transform rotationObject;
 
     protected override void Start()
     {
@@ -33,9 +35,9 @@ public class DoorLinkInteract : QuantumLink
 
     public IEnumerator RotateDoor()
     {
-        while (this.transform.eulerAngles.y >= rotationLimit)
+        while (rotationObject.localEulerAngles.y <= rotationLimit)
         {
-            this.transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+            rotationObject.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
 
             yield return new WaitForEndOfFrame();
         }

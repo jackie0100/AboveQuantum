@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 33212359877610798}
   - component: {fileID: 23101558188249376}
   - component: {fileID: 64801879635204774}
+  - component: {fileID: 114497647521992808}
   m_Layer: 8
   m_Name: EndLevelDoor
   m_TagString: Untagged
@@ -242,3 +243,19 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 8a282820a745db445a13c72157af4958, type: 3}
+--- !u!114 &114497647521992808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590752014508368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aef278471d1d9148976e4f0b8eb5ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedObject: []
+  linkID: 0
+  rotationSpeed: 10
+  rotationLimit: 90
+  rotationObject: {fileID: 4381197594285112}

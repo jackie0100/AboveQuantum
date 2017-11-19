@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33706265880060926}
   - component: {fileID: 23439382827904126}
   - component: {fileID: 64062326095038254}
+  - component: {fileID: 114023630317885762}
   m_Layer: 9
   m_Name: EndLevelDoor
   m_TagString: Untagged
@@ -109,15 +110,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1799850513769088}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.521491, y: 0.5, z: -0.21566534}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -3.521491, y: 0.5, z: 3.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4353257285876994}
   - {fileID: 4743663930405392}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &4743663930405392
 Transform:
   m_ObjectHideFlags: 1
@@ -242,3 +243,19 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 9a8d01d87125ed34c8ffc6952593c7b5, type: 3}
+--- !u!114 &114023630317885762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256977845028480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aef278471d1d9148976e4f0b8eb5ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linkedObject: []
+  linkID: 0
+  rotationSpeed: 10
+  rotationLimit: 90
+  rotationObject: {fileID: 4743663930405392}

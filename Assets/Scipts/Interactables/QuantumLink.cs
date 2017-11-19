@@ -17,7 +17,7 @@ public class QuantumLink : Interactable
         {
             Debug.LogError(this.name + " Have no link.");
         }
-		if (!linkedObject.Contains(this))
+		if (linkedObject.Contains(this))
         {
             Debug.LogWarning(this.name + " is not linked correctly check IDs and trye again.");
         }
