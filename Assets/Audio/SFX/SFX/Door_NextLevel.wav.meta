@@ -1,9 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 4e94a820321e95645ac3209694f9da3d
 timeCreated: 1511059894
 licenseType: Free
 AudioImporter:
   externalObjects: {}
+=======
+guid: 2fd6a371e73e46942aa11f027ce3344f
+timeCreated: 1511060003
+licenseType: Free
+AudioImporter:
+>>>>>>> a9ee1dc89c292a8c5b2969df42ac8943945bfef5
   serializedVersion: 6
   defaultSettings:
     loadType: 0
