@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/menu/Menu.unity
     guid: ab21d2f18cd06bf4eb7012cd1b4ef42f
   - enabled: 1
+    path: Assets/Scenes/Level0/Za Warudo1.unity
+    guid: 91b4d415e6ee5b44a9464cf6884fac85
+  - enabled: 1
+    path: Assets/Scenes/Level0/Za Warudo2.unity
+    guid: 8b8ef37280170854fbb323bfd2b49f77
+  - enabled: 1
     path: Assets/Scenes/Level1/Level1Good.unity
     guid: a32d03f3fd3d3cd45b2d03d037dee5ea
   - enabled: 1
@@ -20,12 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2/Level 2-Bad.unity
     guid: b68af172f29179a44b16b758bf622b6c
-  - enabled: 1
-    path: Assets/Scenes/Level0/Za Warudo1.unity
-    guid: 91b4d415e6ee5b44a9464cf6884fac85
-  - enabled: 1
-    path: Assets/Scenes/Level0/Za Warudo2.unity
-    guid: 8b8ef37280170854fbb323bfd2b49f77
   - enabled: 1
     path: Assets/Scenes/Level3/World 2.unity
     guid: d9e60466d85d5234fa82a6054efe8f8e
